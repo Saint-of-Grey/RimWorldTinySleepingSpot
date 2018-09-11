@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+   <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName = "SleepingSpot"]/graphicData/drawSize</xpath>
+      <value>
+         <drawSize>(2,2)</drawSize>
+      </value>
+   </Operation>
+   <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[defName = "SleepingSpot"]/size</xpath>
+      <value>
+         <size>(1,1)</size>
+      </value>
+   </Operation>
+</Patch>
